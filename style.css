@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topHeader{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topHeader span{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    background-color: #fff;
+}
+
+
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav .active{
+    text-decoration: underline;
+}
+
+.search input{
+    padding: 8px 12px;
+    border: 1px solid #f5f5f5;
+    border-radius: 6px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 40px auto;
+}
+
+/* left float */
+.left img{
+    width: 100%;
+    max-width: 550px;
+}
+/* right float */
+.right{
+    background-color: #fff;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.right h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color:black;
+    margin-bottom: 25px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.CreateAccount{
+   background: #db4444;
+   color: #fff;
+   border: none;
+}
+.signUp{
+    background: #fff;
+    border: 1px solid  #f5f5f5;
+}
+
+.login{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
